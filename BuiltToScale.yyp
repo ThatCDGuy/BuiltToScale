@@ -34,7 +34,13 @@
   },
   "name":"BuiltToScale",
   "resources":[
+    {"id":{"name":"obj_food","path":"objects/obj_food/obj_food.yy",},},
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"spr_player_skinny","path":"sprites/spr_player_skinny/spr_player_skinny.yy",},},
+    {"id":{"name":"spr_toast","path":"sprites/spr_toast/spr_toast.yy",},},
+    {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
