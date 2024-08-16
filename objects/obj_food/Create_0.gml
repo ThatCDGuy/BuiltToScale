@@ -1,1 +1,1 @@
-calories = 1
+calories = 0
