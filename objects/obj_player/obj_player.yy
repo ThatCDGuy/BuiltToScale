@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_player_skinny",
-    "path":"sprites/spr_player_skinny/spr_player_skinny.yy",
+    "name":"spr_player_healthy",
+    "path":"sprites/spr_player_healthy/spr_player_healthy.yy",
   },
   "spriteMaskId":null,
   "visible":true,
