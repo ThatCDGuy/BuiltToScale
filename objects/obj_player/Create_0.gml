@@ -6,3 +6,4 @@ hsp = 0
 vsp = 0
 weight = 5
 chonk = weight/5
+canmove = true
