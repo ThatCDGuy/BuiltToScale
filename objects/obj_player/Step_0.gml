@@ -56,13 +56,13 @@ vsp = clamp(vsp,-movespeedcap,movespeedcap)
 hsp *= 0.9
 vsp *= 0.9
 
-image_xscale = chonk
-image_yscale = chonk
+/* image_xscale = chonk
+image_yscale = chonk */
 
 weight -= abs(hsp/2000)
 weight -= abs(vsp/2000)
 
-weight = clamp(weight,5,100)
+weight = clamp(weight,5,105)
 
 
 move_and_collide(hsp,vsp,obj_wall,64)
