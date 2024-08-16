@@ -59,12 +59,10 @@ vsp *= 0.9
 image_xscale = chonk
 image_yscale = chonk
 
-chonk -= hsp/10
-chonk -= vsp/10
+weight -= abs(hsp/2000)
+weight -= abs(vsp/2000)
 
-chonk = clamp(chonk,5,100)
+weight = clamp(weight,5,100)
 
-if chonk = 100
-game_restart()
 
 move_and_collide(hsp,vsp,obj_wall,64)
