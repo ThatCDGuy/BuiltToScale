@@ -11,4 +11,8 @@ chonk = weight/5
 canmove = true
 dead = false
 
+hunger = 0
+
+iframes = 0
+
 global.movement_paused = false

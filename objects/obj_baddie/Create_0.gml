@@ -1,0 +1,10 @@
+target = noone
+hsp = 0
+vsp = 0
+dir = 0
+state = states.stunned
+stuntime = 60
+hp = 1
+stunx = x
+stuny = y
+spd = 3

@@ -21,4 +21,11 @@ draw_healthbar(10,95,210,115,energy,c_ltgrey,a,a,0,true,false)
 draw_rectangle_ext(10,95,210,115,c_black,2)
 draw_text(220,95,energy_exact)
 
+var hunger = obj_player.hunger * 10
+var hunger_exact = clamp(obj_player.hunger,0,12)
+var a = make_color_rgb(234,79,54)
+draw_healthbar(10,130,210,150,hunger,c_ltgrey,a,a,0,true,false)
+draw_rectangle_ext(10,130,210,150,c_black,2)
+draw_text(220,130,hunger_exact)
+
 draw_set_alpha(1)

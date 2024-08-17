@@ -6,14 +6,18 @@ switch room
 	break
 	
 	case rm_template:
-	global.roomname = "THE DRAWING BOARD"
+	global.roomname = "I MEAN IT, GET THE FUCK OUT!!"
 	break
 	
 	case rm_level1:
-	global.roomname = "HUNGRY BLOB"
+	global.roomname = "THE BLOBBENING BEGINS"
 	break
 	
 	case rm_level2:
+	global.roomname = "A BALANCED BREAKFAST"
+	break
+	
+	case rm_level3:
 	global.roomname = "JUNK FOOD"
 	break
 }
