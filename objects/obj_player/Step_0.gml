@@ -35,6 +35,7 @@ vsp = 0
 if alarm[0] = -1
 alarm[0] = 60
 obj_camera.Shake_Camera(2,20)
+dead = true
 }
 
 movespeedcap = weight*2
@@ -70,6 +71,7 @@ weight = clamp(weight,5,105)
 energy = clamp(energy,-1,12)
 }
 
+if dead = false
 move_and_collide(hsp,vsp,obj_wall,64)
 
 if (place_meeting(x, y, obj_wall))

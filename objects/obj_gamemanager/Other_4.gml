@@ -10,7 +10,11 @@ switch room
 	break
 	
 	case rm_level1:
-	global.roomname = "LEARN HOW TO BLOB"
+	global.roomname = "HUNGRY BLOB"
+	break
+	
+	case rm_level2:
+	global.roomname = "JUNK FOOD"
 	break
 }
 

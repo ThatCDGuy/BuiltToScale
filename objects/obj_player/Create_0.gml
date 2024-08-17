@@ -9,3 +9,6 @@ state = 0
 weight = 5
 chonk = weight/5
 canmove = true
+dead = false
+
+global.movement_paused = false

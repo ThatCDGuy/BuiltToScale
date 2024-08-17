@@ -1,6 +1,7 @@
 switch room
 {
 	case rm_test:
+	case rm_level1:
 	music = mu_leveltheme_A
 	break
 }
