@@ -16,7 +16,7 @@ else if weight < 80
 else
 	movespeed = 0.5
 
-if weight < 10
+/* if weight < 10
 sprite_index = spr_player_skinny
 else if weight < 30
 sprite_index = spr_player_healthy
@@ -25,10 +25,10 @@ sprite_index = spr_player_chubby
 else if weight < 80
 sprite_index = spr_player_fat
 else
-sprite_index = spr_player_veryfat
+sprite_index = spr_player_veryfat */
 
 if weight > 100
-{sprite_index = spr_player_morbidlyobese
+{
 movespeed = 0
 hsp = 0
 vsp = 0
