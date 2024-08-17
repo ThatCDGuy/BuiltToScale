@@ -1,1 +1,2 @@
-calories = 8
+mass = 8
+energy = 2

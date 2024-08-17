@@ -1,1 +1,2 @@
-calories = 6
+mass = 6
+energy = 1
