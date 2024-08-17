@@ -19,7 +19,7 @@ else if weight < 80
 else
 	movespeed = 0.5
 
-if weight > 100 or hp < 0
+if weight > 100 or energy < 0
 {sprite_index = spr_player_dead
 movespeed = 0
 hsp = 0
@@ -51,7 +51,7 @@ vsp *= 0.9
 image_xscale = chonk
 image_yscale = chonk
 
-hp -= 0.01666
+energy -= 0.01666
 weight -= 0.005
 
 weight = clamp(weight,5,105)

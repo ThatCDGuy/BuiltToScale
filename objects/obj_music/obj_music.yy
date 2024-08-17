@@ -9,8 +9,8 @@
   "name":"obj_music",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"essentials",
+    "path":"folders/Objects/essentials.yy",
   },
   "parentObjectId":null,
   "persistent":true,

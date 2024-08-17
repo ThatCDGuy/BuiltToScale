@@ -27,13 +27,14 @@ else if weight < 80
 else
 	movespeed = 0.5
 
-if weight > 100 or hp < 0
+if weight > 100 or energy < 0
 {sprite_index = spr_player_dead
 movespeed = 0
 hsp = 0
 vsp = 0
 if alarm[0] = -1
 alarm[0] = 60
+obj_camera.Shake_Camera(2,20)
 }
 
 movespeedcap = weight*2
@@ -60,11 +61,14 @@ vsp *= 0.9
 image_xscale = chonk
 image_yscale = chonk
 
-hp -= 0.01666
-weight -= 0.005
+if !global.movement_paused
+{
+energy -= 0.01666
+// weight -= 0.005
 
 weight = clamp(weight,5,105)
-
+energy = clamp(energy,-1,12)
+}
 
 move_and_collide(hsp,vsp,obj_wall,64)
 

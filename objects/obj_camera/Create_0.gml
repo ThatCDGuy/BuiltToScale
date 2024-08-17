@@ -106,5 +106,6 @@ function Stop_Tracking_All()
 	to_track = array_create();	
 		
 	}
+	
+	Track_Objects([obj_player])
 
-Track_Objects([obj_player])
