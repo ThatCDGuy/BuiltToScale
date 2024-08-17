@@ -1,1 +1,1 @@
-music = 0
+music = mu_null

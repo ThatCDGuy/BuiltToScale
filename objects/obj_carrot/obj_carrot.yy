@@ -8,8 +8,8 @@
   "name":"obj_carrot",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"foods",
+    "path":"folders/Objects/foods.yy",
   },
   "parentObjectId":{
     "name":"obj_food",

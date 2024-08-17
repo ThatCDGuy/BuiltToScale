@@ -1,21 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_egg",
+  "%Name":"obj_gamemanager",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_egg",
+  "name":"obj_gamemanager",
   "overriddenProperties":[],
   "parent":{
-    "name":"foods",
-    "path":"folders/Objects/foods.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"obj_food",
-    "path":"objects/obj_food/obj_food.yy",
-  },
-  "persistent":false,
+  "parentObjectId":null,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -32,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_egg",
-    "path":"sprites/spr_egg/spr_egg.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
