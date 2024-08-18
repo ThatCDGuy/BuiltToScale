@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
-other.carryspd += 2
+other.carryspd += 1
 /* other.state = 2
 other.hsp *= 10
 other.vsp *= 10 */

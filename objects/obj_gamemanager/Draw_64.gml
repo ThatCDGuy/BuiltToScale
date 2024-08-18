@@ -30,7 +30,7 @@ draw_text(220,130,hunger_exact)
 
 var carryspd = string(obj_player.carryspd)
 
-if carryspd > 0
+if carryspd > -1
 draw_text(10,150,"SPEED BOOST: " + carryspd)
 
 draw_rectangle_ext(750,10,950,45,c_black,2)

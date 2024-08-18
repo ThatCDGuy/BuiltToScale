@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"hungry_blob_A_theme",
+  "%Name":"sfx_hurt3",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -8,9 +8,9 @@
   "bitDepth":1,
   "bitRate":128,
   "compression":0,
-  "conversionMode":1,
-  "duration":89.30234,
-  "name":"hungry_blob_A_theme",
+  "conversionMode":0,
+  "duration":1.277098,
+  "name":"sfx_hurt3",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"hungry_blob_A_theme.ogg",
+  "soundFile":"sfx_hurt3.ogg",
   "type":0,
   "volume":1.0,
 }
