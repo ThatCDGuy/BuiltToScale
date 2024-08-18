@@ -2,7 +2,7 @@ global.score = 0
 basescore = 0
 global.roomname = 0
 global.movement_paused = false
-global.localversion = 0.20
+global.localversion = "1.0"
 global.paused = false
 cooldown = 0
 enum states

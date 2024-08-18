@@ -37,6 +37,10 @@ switch room
 	global.roomname = "BULKING UP"
 	break
 	
+	case rm_level7:
+	global.roomname = "THE LAST ONE"
+	break
+	
 	case rm_notdoneyet:
 	global.roomname = "LET ME COOK"
 	break
