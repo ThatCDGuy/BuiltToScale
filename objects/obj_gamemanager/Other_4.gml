@@ -37,7 +37,7 @@ switch room
 	global.roomname = "BULKING UP"
 	break
 	
-	case rm_level7:
+	case rm_level8:
 	global.roomname = "THE LAST ONE"
 	break
 	
@@ -49,3 +49,5 @@ switch room
 
 instance_create_depth(0,0,0,obj_camera)
 instance_create_depth(0,0,0,obj_screenshake)
+if room = rm_level1
+instance_create_depth(0,0,0,obj_music)

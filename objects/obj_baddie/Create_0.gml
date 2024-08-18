@@ -7,5 +7,5 @@ stuntime = 60
 hp = 1
 stunx = x
 stuny = y
-spd = 6
+spd = 5
 threshold = 20

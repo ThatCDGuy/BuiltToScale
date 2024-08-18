@@ -53,7 +53,7 @@ draw_text(480,270,"GAME PAUSED")
 draw_set_font(fnt_normal)
 draw_set_halign(0)
 draw_set_valign(0)
-if keyboard_check_released(vk_control)  and room != rm_startscreen and room != rm_init and room != rm_endscreen and global.paused = true and cooldown < 0
+if keyboard_check_released(ord("P"))  and room != rm_startscreen and room != rm_init and room != rm_endscreen and global.paused = true and cooldown < 0
 global.paused = false
 instance_activate_all()
 }

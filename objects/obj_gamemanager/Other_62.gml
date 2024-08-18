@@ -8,7 +8,7 @@ if (ds_map_find_value(async_load, "id") == version)
 	global.globalversion = ini_read_real("main","version number",0.0)
 	ini_close()
 
-	if global.globalversion > int64(global.localversion)
+	if global.globalversion > int64(global.localversion) and (os_browser == browser_not_a_browser)
 		{
 		if show_question("Hey, the version of the game you're playing is outdated. Do you still want to play?") = true
 			room_goto(rm_startscreen)
