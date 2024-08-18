@@ -1,1 +1,1 @@
-room_goto(rm_startscreen)
+// room_goto(rm_startscreen)

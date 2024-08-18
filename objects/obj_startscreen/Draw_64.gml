@@ -12,4 +12,4 @@ draw_text(10,199,"BUT BE CAREFUL! EVERY TIME YOU EAT, YOU GROW. (you can monitor
 draw_text(10,220,"AND IF YOU GROW TOO BIG, IT'S GAME OVER FOR YOU...")
 draw_text(10,320,"PRESS SPACE TO START")
 draw_set_font(fnt_normal)
-draw_text(930,530,"VERSION" + string(global.localversion))
+draw_text(10,520,"VERSION " + string(global.localversion))

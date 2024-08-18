@@ -17,4 +17,5 @@ ini_close()
 ini_write_string("main","version number",global.localversion)
 ini_close() */
 
-// http_get_file(dl.dropbox.com, "\download\game.ini")
+version = http_get_file("https://raw.githubusercontent.com/ThatCDGuy/BuiltToScale/main/version.ini", "version.ini")
+ini_open("version.ini")
