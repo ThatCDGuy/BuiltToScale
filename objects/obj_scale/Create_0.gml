@@ -1,1 +1,1 @@
-depth = -500
+depth = obj_player.depth + 1

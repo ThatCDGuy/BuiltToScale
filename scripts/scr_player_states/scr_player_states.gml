@@ -1,6 +1,8 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_player_normal(){
+	
+if global.paused = false{
 key_left = keyboard_check(vk_left)
 key_up = keyboard_check(vk_up)
 key_down = keyboard_check(vk_down)
@@ -96,7 +98,7 @@ if place_meeting(x-2,y,obj_wall) or place_meeting(x+2,y,obj_wall)
 
 if place_meeting(x,y+2,obj_wall) or place_meeting(x,y-2,obj_wall)
 {vsp = 0}
-
+}
 }
 
 function scr_player_dead(){

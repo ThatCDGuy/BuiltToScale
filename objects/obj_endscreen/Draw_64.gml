@@ -1,0 +1,8 @@
+draw_sprite(spr_staticscreen,-1,0,0)
+draw_set_font(fnt_big)
+draw_set_color(c_black)
+draw_set_halign(1)
+draw_set_valign(1)
+draw_text(480,270,"NICE JOB")
+draw_set_font(fnt_stillprettybig)
+draw_text(480,300,"btw this game isn't fully finished yet, more updates coming tuesday (or after the deadline if i don't make it)")

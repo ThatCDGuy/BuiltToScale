@@ -43,3 +43,21 @@ draw_text(760,15,"SCORE: " + string(global.score))
 
 draw_set_alpha(1)
 }
+
+if global.paused
+{draw_sprite(spr_staticscreen,-1,0,0)
+draw_set_font(fnt_big)
+draw_set_halign(fa_center)
+draw_set_valign(fa_middle)
+draw_text(480,270,"GAME PAUSED")
+draw_set_font(fnt_normal)
+draw_set_halign(0)
+draw_set_valign(0)
+if keyboard_check_released(vk_control)  and room != rm_startscreen and room != rm_init and room != rm_endscreen and global.paused = true and cooldown < 0
+global.paused = false
+instance_activate_all()
+}
+
+// draw_text(10,200,global.paused)
+
+cooldown--

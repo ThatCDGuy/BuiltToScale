@@ -42,7 +42,9 @@ alarm[0] = 60
 obj_camera.Shake_Camera(2,20)
 dead = true
 state = 1
-audio_play_sound(choose(sfx_hurt1,sfx_hurt2,sfx_hurt3,sfx_hurt4),1000,0,1,0,random_range(1,1.3))}
+var m = choose(sfx_hurt1,sfx_hurt2,sfx_hurt3,sfx_hurt4)
+if !audio_is_playing(m)
+audio_play_sound(m,1000,0,1,0,random_range(1,1.3))}
 
 iframes--
 

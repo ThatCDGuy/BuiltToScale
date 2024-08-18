@@ -11,5 +11,7 @@ draw_text(10,178,"YOU HAVE TO EAT SO YOUR ENERGY BAR (the blue one) DOESN'T RUN 
 draw_text(10,199,"BUT BE CAREFUL! EVERY TIME YOU EAT, YOU GROW. (you can monitor this with the blue bar)")
 draw_text(10,220,"AND IF YOU GROW TOO BIG, IT'S GAME OVER FOR YOU...")
 draw_text(10,320,"PRESS SPACE TO START")
+draw_text(10,420,"USES THE MultiObjectTrackingCamera SCRIPT ON THE GAMEMAKER MARKETPLACE")
+draw_text(10,441,"MADE BY ALBERTROS")
 draw_set_font(fnt_normal)
-draw_text(10,520,"VERSION " + string(global.localversion))
+draw_text(10,510,"VERSION " + string(global.localversion))
