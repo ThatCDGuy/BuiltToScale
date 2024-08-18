@@ -11,6 +11,7 @@ chonk = weight/5
 canmove = true
 dead = false
 
+carryspd = 0
 hunger = 0
 
 iframes = 0

@@ -28,4 +28,15 @@ draw_healthbar(10,130,210,150,hunger,c_ltgrey,a,a,0,true,false)
 draw_rectangle_ext(10,130,210,150,c_black,2)
 draw_text(220,130,hunger_exact)
 
+var carryspd = string(obj_player.carryspd)
+
+if carryspd > 0
+draw_text(10,150,"SPEED BOOST: " + carryspd)
+
+draw_rectangle_ext(750,10,950,45,c_black,2)
+draw_set_color(c_white)
+draw_rectangle(750,10,950,45,false)
+draw_set_color(c_black)
+draw_text(760,15,"SCORE: " + string(global.score))
+
 draw_set_alpha(1)

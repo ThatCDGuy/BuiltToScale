@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_donut",
+  "%Name":"obj_apple",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_donut",
+  "name":"obj_apple",
   "overriddenProperties":[],
   "parent":{
     "name":"foods",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_donut",
-    "path":"sprites/spr_donut/spr_donut.yy",
+    "name":"spr_apple",
+    "path":"sprites/spr_apple/spr_apple.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -18,6 +18,8 @@ else if weight < 80
 	movespeed = 0.6
 else
 	movespeed = 0.5
+	
+movespeed += carryspd
 
 if weight > 100 or energy < 0
 {sprite_index = spr_player_dead
@@ -60,11 +62,14 @@ if !global.movement_paused
 energy -= 0.01666
 
 hunger -= 0.025
+
+carryspd -= 0.02
 // weight -= 0.005
 
 weight = clamp(weight,5,105)
 energy = clamp(energy,-1,12)
 hunger = clamp(hunger,0,10)
+carryspd = clamp(carryspd,0,2)
 }
 
 if dead = false
@@ -74,6 +79,16 @@ move_and_collide(hsp,vsp,obj_wall,64)
 {
     move_outside_all(90, 4)
 } */
+
+
+if place_meeting(x+hsp,y,obj_speedblock) and carryspd > 0.3
+{var b = instance_place(x+hsp,y,obj_speedblock)
+instance_destroy(b)
+}
+
+if place_meeting(x,y+vsp,obj_speedblock) and carryspd > 0.3
+{var b = instance_place(x,y+vsp,obj_speedblock)
+instance_destroy(b)}
 
 if place_meeting(x-2,y,obj_wall) or place_meeting(x+2,y,obj_wall)
 {hsp = 0}
@@ -88,5 +103,18 @@ function scr_player_dead(){
 }
 
 function scr_player_sprint(){
-	
+if place_meeting(x+hsp,y,obj_speedblock)
+{var b = instance_place(x+hsp,y,obj_speedblock)
+instance_destroy(b)
+}
+
+if place_meeting(x,y+vsp,obj_speedblock)
+{var b = instance_place(x,y+vsp,obj_speedblock)
+instance_destroy(b)}
+
+hsp = lerp(hsp,0,0.5)
+
+if hsp < 5
+state = 0
+
 }

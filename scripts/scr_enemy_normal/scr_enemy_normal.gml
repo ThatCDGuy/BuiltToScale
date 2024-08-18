@@ -13,7 +13,7 @@ vsp = lengthdir_y(3,dir)}
 x += hsp
 y += vsp */
 
-if distance_to_object(obj_player) < 500
+if distance_to_object(obj_player) < 200
 target = obj_player
 
 if target != noone
