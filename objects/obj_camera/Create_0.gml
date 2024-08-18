@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+music = mu_null
+
 global.time = 0
 
 #macro DEFAULT_ZOOM 0.8 // lower value is more zoomed in, this is the value the camera will default to if there's only one tracked object 

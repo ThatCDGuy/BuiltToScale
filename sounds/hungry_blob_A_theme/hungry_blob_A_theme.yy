@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"mu_null",
+  "%Name":"hungry_blob_A_theme",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":1,
-  "duration":1.714286,
-  "name":"mu_null",
+  "duration":89.30234,
+  "name":"hungry_blob_A_theme",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"mu_null.ogg",
+  "soundFile":"hungry_blob_A_theme.ogg",
   "type":0,
   "volume":1.0,
 }

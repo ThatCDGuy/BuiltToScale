@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"mu_null",
+  "%Name":"sfx_eating4",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -8,9 +8,9 @@
   "bitDepth":1,
   "bitRate":128,
   "compression":0,
-  "conversionMode":1,
-  "duration":1.714286,
-  "name":"mu_null",
+  "conversionMode":0,
+  "duration":1.451247,
+  "name":"sfx_eating4",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"mu_null.ogg",
+  "soundFile":"sfx_eating4.ogg",
   "type":0,
   "volume":1.0,
 }

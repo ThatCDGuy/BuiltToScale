@@ -20,6 +20,6 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"mu_leveltheme_A.ogg",
-  "type":0,
+  "type":2,
   "volume":1.0,
 }
