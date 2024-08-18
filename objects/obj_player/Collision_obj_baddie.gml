@@ -1,4 +1,4 @@
-if iframes < -1 and other.threshold > weight
+if iframes < -1 and other.threshold > weight and carryspd = 0
 {
 	iframes = 60
 	energy -= 1

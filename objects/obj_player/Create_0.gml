@@ -13,7 +13,10 @@ dead = false
 
 carryspd = 0
 hunger = 0
+roomgoto = rm_level6
 
 iframes = 0
 
 global.movement_paused = false
+
+show_debug_message(game_save_id)
