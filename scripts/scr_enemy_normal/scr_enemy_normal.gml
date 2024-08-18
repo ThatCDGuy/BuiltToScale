@@ -19,7 +19,7 @@ target = obj_player
 if target != noone
 {
 path = path_add()
-mp_potential_path_object(path, target.x, target.y, spd, 4, obj_wall)
+mp_potential_path_object(path, target.x + 48, target.y + 48, spd, 4, obj_wall)
 path_start(path, spd, 0, 0)
 }
 /* else

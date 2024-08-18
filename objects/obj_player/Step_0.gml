@@ -32,6 +32,18 @@ if place_meeting(x,y,obj_wall)
 	}
 }
 
+if place_meeting(x,y,obj_wall)
+{sprite_index = spr_player_dead
+movespeed = 0
+hsp = 0
+vsp = 0
+if alarm[0] = -1
+alarm[0] = 60
+obj_camera.Shake_Camera(2,20)
+dead = true
+state = 1
+audio_play_sound(choose(sfx_hurt1,sfx_hurt2,sfx_hurt3,sfx_hurt4),1000,0,1,0,random_range(1,1.3))}
+
 iframes--
 
 if iframes > 0

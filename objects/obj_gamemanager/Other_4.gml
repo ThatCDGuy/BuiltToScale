@@ -33,9 +33,14 @@ switch room
 	global.roomname = "DON'T GET TOO BIG"
 	break
 	
+	case rm_level7:
+	global.roomname = "BULKING UP"
+	break
+	
 	case rm_notdoneyet:
 	global.roomname = "LET ME COOK"
 	break
+
 }
 
 instance_create_depth(0,0,0,obj_camera)

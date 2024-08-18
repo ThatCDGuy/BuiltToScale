@@ -1,0 +1,1 @@
+DEFAULT_ZOOM = 0.8

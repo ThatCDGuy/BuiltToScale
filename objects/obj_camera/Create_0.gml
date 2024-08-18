@@ -5,7 +5,7 @@ music = mu_null
 
 global.time = 0
 
-#macro DEFAULT_ZOOM 0.8 // lower value is more zoomed in, this is the value the camera will default to if there's only one tracked object 
+DEFAULT_ZOOM = 0.8 // lower value is more zoomed in, this is the value the camera will default to if there's only one tracked object 
 #macro SMOOTHING_FACTOR 10 // the higher the smoothing the slower the camera pans, 1 = immediate. 
 #macro ZOOM_SMOOTHING 0.2 // how quickly the camera zooms in or out, 1 = immediate, 0 = never. 
 #macro CAMERA_BORDER 100 //padding around tracked objects
