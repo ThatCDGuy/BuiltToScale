@@ -1,6 +1,8 @@
+if instance_exists(obj_player)
+{
 draw_set_alpha(0.8)
 
-draw_set_font(fnt_default)
+draw_set_font(fnt_big)
 draw_rectangle_ext(10,10,string_width(global.roomname) + 15,45,c_black,2)
 draw_set_color(c_white)
 draw_rectangle(10,10,string_width(global.roomname) + 15,45, false)
@@ -40,3 +42,4 @@ draw_set_color(c_black)
 draw_text(760,15,"SCORE: " + string(global.score))
 
 draw_set_alpha(1)
+}
